@@ -352,9 +352,7 @@ file_menu = Menu(my_menu)
 my_menu.add_cascade(label="File",menu=file_menu)
 file_menu.add_command(label="Exit",command=root.quit)
 # Create another submenu
-config_menu = Menu(my_menu)
-my_menu.add_cascade(label="Config",menu=config_menu)
-config_menu.add_command(label="Config Channel",command=open_config_window)
+
 
 # Create Channel 1 Data Frame
 chan1_status_var = StringVar()
